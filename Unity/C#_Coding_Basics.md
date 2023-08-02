@@ -29,3 +29,54 @@ int[] numbers = {1, 2, 3, 4, 5};
 ```
 
 
+# Conditional Statements
+## If Statements
+* If a condition is true then the code must be evaluated else another code must be evaluated
+  
+### Syntax
+if(true){
+//some code;
+}
+else{
+//some other code;
+}
+
+__Show below are some examples:__
+```C#
+int Year = 2023;
+if (Year == 2023)
+{
+  Console.WriteLine("The year is 2023");
+}
+else
+{
+  Console.WriteLine("The year is not 2023");
+}
+```
+
+## Switch Statement
+* similar to a if-else statement but is much cleaner and easier to maintain
+### Syntax
+switch(condition to evaluate against)
+{
+  default:
+
+}
+
+__Show below are some examples:__
+```C#
+int Year = 2023;
+switch(Year):
+{
+  case 2013:
+    Console.WriteLine("It's 2013");
+    break;
+  default:
+    Console.WriteLine("It's" + Year + "!");
+    break;
+}
+```
+
+
+
+
